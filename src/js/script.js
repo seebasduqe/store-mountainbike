@@ -63,7 +63,7 @@ function sendForm() {
       body: JSON.stringify(body)
     })
     .then( res => res.json())
-    .then( res => {
+    .then( res => { 
       console.log(
         "respuesta de la api", res
       )
