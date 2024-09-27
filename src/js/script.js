@@ -8,7 +8,6 @@ fetch("https://fake-api-vq1l.onrender.com/posts", {
   .then(data => {
 
     const container = document.getElementById('products-grid');
-    container.innerHTML = '';
 
     data.forEach( product => {
       const images = JSON.parse(product.images);
