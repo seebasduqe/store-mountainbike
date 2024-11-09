@@ -78,7 +78,7 @@ function sendForm() {
     .then(res => res.json())
     .then(res => {
       console.log("respuesta de la api", res);
-      window.location.reload();
+      //window.location.reload();
     })
 }
 
